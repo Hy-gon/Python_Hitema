@@ -49,3 +49,28 @@ dico={
   'age':24
 }
 st.json(dico)
+
+st.header("TEST BUTTON")
+
+st.button("simple button")
+
+st.text("checkbox")
+if st.checkbox("show/hide"):
+  #Do Action
+  st.text("some action")
+
+
+status = st.radio("ton statut", ('active', 'Inactive'))
+if status == 'active':
+  st.success("tu es active")
+else:
+  st.warning("non active !")
+st.text("boite de selection")
+
+
+occupation = st.selectbox("ton poste", ['Développeur', 'analyste', 'Doctor'])
+st.write("So, you are a ", occupation)
+
+st.write("selection multiple")
+location = st.multiselect("ou est tu ?", ("Paris", "Londre", "New York"))
+st.write("You Selected", len(location), "location")
