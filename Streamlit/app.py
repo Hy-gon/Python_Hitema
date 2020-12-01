@@ -17,7 +17,9 @@ data = load_data(10)
 st.subheader("Raw data de 10")
 st.write(data)
 
-
+if st.checkbox("Correlation"):
+  st.write(sns.heatmap(data.corr(), annot = True))
+  st.pyplot()
 
 st.title("Streamlit Training")
 st.header("Load CSV")
