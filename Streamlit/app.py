@@ -2,15 +2,22 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import seaborn as sn
+import os
+from streamlit.errors import Error
 
- # DATA IMPORT
-#@st.cache
-#def load_data(URL):
- #   data=pd.read_csv(URL)
-  #  return data
+@st.cache(persist=True)
 
-#path1=""
-#selected=0
+def load_data(nrows):
+
+  data = pd.read_csv("pokemon.csv", nrows = nrows)
+  return data
+
+data = load_data(10)
+
+st.subheader("Raw data de 10")
+st.write(data)
+
+
 
 st.title("Streamlit Training")
 st.header("Load CSV")
