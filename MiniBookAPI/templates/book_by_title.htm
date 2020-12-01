@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 1.2 Mini books API</title>
+</head>
+<body>
+    {{ book.title }}<br>
+    <img src="{{book.thumbnailUrl}}"/><br>
+    {% for author in book.authors %}
+        {{ author }}<br>
+    {% endfor %}
+</body>
+</html>
