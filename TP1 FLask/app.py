@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 import json
 
 app = Flask(__name__)
@@ -13,9 +13,16 @@ def index():
 
 # Without Index Template
 
-@app.route("/routeName/<name>", methods=["GET"])
+#@app.route("/routeName/<name>", methods=["GET"])
+#def get_name(name):
+#    return "Hello " + name
+
+# With Index Template
+
+@app.route("/routeNametest/<name>", methods=["GET"])
 def get_name(name):
-    return "Hello " + name
+    return render_template("index.html", name = name)
+
 
 
 if __name__ == "__main__":
