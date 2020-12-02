@@ -7,9 +7,9 @@ app = Flask(__name__)
 
 # 1.1 - Quickstart
 
-@app.route('/')
-def index():
-    return "Hello H3"
+#@app.route('/')
+#def index():
+#    return "Hello H3"
 
 # Without Index Template
 
@@ -19,9 +19,42 @@ def index():
 
 # With Index Template
 
-@app.route("/routeNametest/<name>", methods=["GET"])
-def get_name(name):
-    return render_template("index.html", name = name)
+#@app.route("/routeNametest/<name>", methods=["GET"])
+#def get_name(name):
+#    return render_template("index.html", name = name)
+
+book = [
+    {
+        'id': 1,
+        'title': 'titre 1',
+    },
+    {
+        'id': 2,
+        'title': 'titre 2',
+    }
+]
+
+@app.route("/")
+def index():
+    return render_template('index.html')
+
+# ID book
+@app.route("/books/<int:id>", methods=["GET"])
+def get_books_id():
+    pass
+
+# TITLE book
+@app.route("books/<title>", methods=["GET"])
+def get_books_title():
+    pass
+    
+# book list
+@app.route("/books", methods["GET"])
+def get_books():
+    pass
+
+
+
 
 
 
