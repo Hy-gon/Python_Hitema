@@ -39,19 +39,19 @@ def index():
     return render_template('index.html')
 
 # ID book
-@app.route("/books/<int:id>", methods=["GET"])
+@app.route("api/books/<int:id>", methods=["GET"])
 def get_books_id():
     pass
 
 # TITLE book
-@app.route("books/<title>", methods=["GET"])
+@app.route("api/books/<title>", methods=["GET"])
 def get_books_title():
     pass
-    
+
 # book list
-@app.route("/books", methods["GET"])
-def get_books():
-    pass
+@app.route("/api/books", methods["GET"])
+def books():
+    return render_template('books.html')
 
 
 
