@@ -1,5 +1,5 @@
 # Mickael Lemieux Cheatsheet
-___
+
 ## Docker CheatSheet
 
 ### Docker Build
