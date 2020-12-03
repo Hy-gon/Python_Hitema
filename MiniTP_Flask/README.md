@@ -8,4 +8,4 @@ Pour le moment, le TP sera une sorte de porte folio avec 3 pages et une sidebar/
 - Page de présentation
 
 ## Lien de Heroku
-Un lien ici sera bientôt disponible une fois le projet hébergé sur HeRoKu
+-> https://mickael-flaskapp.herokuapp.com/
