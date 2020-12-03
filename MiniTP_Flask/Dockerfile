@@ -1,7 +1,5 @@
 FROM alpine:latest
 
-WORKDIR /usr/src/app
-
 RUN apk update && apk add python3 && apk add py3-pip
 
 COPY . .
