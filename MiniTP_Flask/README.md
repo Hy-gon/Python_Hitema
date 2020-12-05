@@ -13,5 +13,9 @@ Le tout étant static, j'aurais pu utiliser Frozen-Flask, mais je m'étais habit
 Les routes étant très simple puisque tout intéragis sur une seule page va JS et des Href sur la même page.
 
 J'intégrerais des concepts plus complexe si j'ai des idées en tête pour plus de routes, même si cela fonctionne sur le même principe.
+
 ## Lien de Heroku
 -> https://mickael-flaskapp.herokuapp.com/
+
+## Template utilisé
+-> https://startbootstrap.com/theme/resume
