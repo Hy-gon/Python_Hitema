@@ -6,7 +6,7 @@ app = Flask(__name__)
 #Route HomePage
 @app.route('/')
 def index():
-    return "hello Saphiros !"
+    return render_template('index.html')
 
 #Http://0.0.0.0:5000
 
