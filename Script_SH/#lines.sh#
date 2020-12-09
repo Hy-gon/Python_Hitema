@@ -1,0 +1,13 @@
+for F in *
+do
+    if [[ -f $F ]]
+    then
+	echo "FICHIER " `
+	if [[ -s $F ]]
+	then
+	    echo "LIGNE :" `wc -l $`
+	    echo "MOT :" `wc -w $F | cut -d ' ' -f 1`
+	    echo ""
+	fi
+    fi
+done
