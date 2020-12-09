@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {{ book.title }}
+    <br>
+    <img src="{{book.thumbnailUrl}}"/>
+    <br>
+    {{ book.shortDescription }}
+    <br>
+    {% for author in book.author %}
+        {{ author }}
+        <br>
+    {% endfor %}
+</body>
+</html>

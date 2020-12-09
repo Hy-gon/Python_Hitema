@@ -1,0 +1,35 @@
+#!/bin/bash
+
+## Get OS NAME
+os_name=$OSNAME
+
+echo "Type d'OS $os_name"
+
+
+sudo apt-get update -y &&
+    sudo apt-get upgrade -y &&
+    sudo apt-get install software-properties-common python-software-properties -y &&
+    sudo add-apt-repository ppa:deadsnakes/ppa &&
+    sudo apt update -y &&
+    sudo apt install python3.6 -y &&
+    sudo apt-get install python3-pip -y &&
+    sudo pip3 install --upgrade pip &&
+    sudo pip3 install pandas &&
+    sudo pip3 install numpy &&
+    sudo pip3 install scikit-learn &&
+    sudo pip3 install flask &&
+    sudo pip3 install streamlit &&
+    ##sudo pip3 fastapi &&
+    sudo pip3 install matplotlib &&
+    ##pip3 install uvicorn &&
+    sudo pip3 install stop-words &&
+    sudo pip3 install notebook &&
+    sudo pip3 install seaborn &&
+    sudo pip3 install joblib
+
+    ## INSTALL DOCKER UBUNTU
+    ##apt-get install curl apt-transport-https ca-certificates software-properties-c
+    ##apt-get update &&
+##	apt-cache policy docker-ce &&
+##	apt-get install docker -y docker-ce &&
+	
