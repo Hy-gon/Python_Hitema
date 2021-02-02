@@ -1,0 +1,10 @@
+-> docker entrypoint INIT_DB, permet d'initialiser des DB 
+-> EN 1 COUP
+-> il faut faire un docker file aussi
+
+
+ETAPE 1 : Créer image avec SQL et le mettre en conteneur
+
+ETAPE 2 : Essayer une connexion avec le script PY et tester une request SQL
+
+ETAPE 3 : Faire les exercices de requetes
