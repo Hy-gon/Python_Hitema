@@ -8,6 +8,11 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+#Route SecondPage "Status"
+@app.route('/status')
+def status():
+    return render_template('status.html')
+
 #Http://0.0.0.0:5000
 
 if __name__ == "__main__":

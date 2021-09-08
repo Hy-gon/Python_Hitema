@@ -3885,6 +3885,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-item {
   margin-bottom: -1px;
 }
+
+
 .nav-tabs .nav-link {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
