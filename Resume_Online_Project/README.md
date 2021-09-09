@@ -8,6 +8,9 @@
       <a href="#about-the-project">Goal of this project</a>
     </li>
     <li>
+          <a href="#Plan-of-the-project">Plan of this project</a>
+    </li>
+    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
@@ -38,6 +41,15 @@ This resume will talk about :
 - Skill
 
 i could use "Frozen-Flask if this was an static page about my resume but i choosed to create a Back-End about my current status linked with a BDD
+
+A second page will talk about the mood / news.
+___
+## Plan of the project
+\
+![](https://i.ibb.co/w7BNTXf/Untitled-Workspace.png)
+
+\
+This project will be linked with a second container which contain MySQL configured with Docker-compose and will be used to maintain a short "blog" on the status page.
 ___
 
 ## Prerequisites
@@ -48,6 +60,7 @@ LOCAL USE :
  - Python3
  - Flask
  - CLI (Bash / Shell / PowerShell)
+ - MySQL
 ___
 ## Execution
 ```
@@ -84,6 +97,8 @@ ___
 - Python : 3.8.10
 
 - Docker : 20.10.6
+
+- MySQL : X.X.X
 ___
 
 ## Link
