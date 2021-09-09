@@ -104,6 +104,42 @@ ___
 ## Link
 * https://resume-online-hygon.herokuapp.com/
 
+### Logs Heroku
+
+```
+-----> Building on the Heroku-20 stack
+-----> Determining which buildpack to use for this app
+-----> Python app detected
+-----> No Python version was specified. Using the buildpack default: python-3.9.7
+       To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
+-----> Installing python-3.9.7
+-----> Installing pip 20.2.4, setuptools 47.1.1 and wheel 0.36.2
+-----> Installing SQLite3
+-----> Installing requirements with pip
+       Collecting Flask==1.1.2
+         Downloading Flask-1.1.2-py2.py3-none-any.whl (94 kB)
+       Collecting Werkzeug>=0.15
+         Downloading Werkzeug-2.0.1-py3-none-any.whl (288 kB)
+       Collecting Jinja2>=2.10.1
+         Downloading Jinja2-3.0.1-py3-none-any.whl (133 kB)
+       Collecting itsdangerous>=0.24
+         Downloading itsdangerous-2.0.1-py3-none-any.whl (18 kB)
+       Collecting click>=5.1
+         Downloading click-8.0.1-py3-none-any.whl (97 kB)
+       Collecting MarkupSafe>=2.0
+         Downloading MarkupSafe-2.0.1-cp39-cp39-manylinux2010_x86_64.whl (30 kB)
+       Installing collected packages: Werkzeug, MarkupSafe, Jinja2, itsdangerous, click, Flask
+       Successfully installed Flask-1.1.2 Jinja2-3.0.1 MarkupSafe-2.0.1 Werkzeug-2.0.1 click-8.0.1 itsdangerous-2.0.1
+-----> Discovering process types
+       Procfile declares types -> (none)
+-----> Compressing...
+       Done: 52.6M
+-----> Launching...
+       Released v3
+       https://resume-online-hygon.herokuapp.com/ deployed to Heroku
+
+```
+
 ## Used template
 * https://startbootstrap.com/theme/resume
 ___
