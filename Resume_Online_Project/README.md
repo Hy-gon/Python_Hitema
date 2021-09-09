@@ -50,6 +50,8 @@ ___
 
 \
 This project will be linked with a second container which contain MySQL configured with Docker-compose and will be used to maintain a short "blog" on the status page.
+
+![](https://i.ibb.co/ZYyLgh5/Tree.png)
 ___
 
 ## Prerequisites
