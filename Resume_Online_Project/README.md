@@ -19,7 +19,7 @@
     </li>
     <li><a href="#route">Route</a></li>
     <li><a href="#version">version</a></li>
-    <li><a href="#link">Link</a></li>
+    <li><a href="#heroku">Heroku</a></li>
     <li><a href="#dockerhub">DockerHub</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -101,7 +101,9 @@ ___
 - MySQL : X.X.X
 ___
 
-## Link
+## Heroku
+
+### Link
 * https://resume-online-hygon.herokuapp.com/
 
 ### Logs Heroku
